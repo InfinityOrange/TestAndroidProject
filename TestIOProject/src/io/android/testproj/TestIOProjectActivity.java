@@ -14,6 +14,13 @@ public class TestIOProjectActivity extends Activity implements OnClickListener{
 	Button prompt;
     /** Called when the activity is first created. */
     @Override
+    /**
+     * This is the function that is first called when you start the activity. 
+     * In our version it calls the onInit function.
+     * @author Khalid Richards
+     * @param savedInstanceState	Don't worry about that for now
+     * 
+     */
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
