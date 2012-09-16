@@ -35,6 +35,6 @@ public class TestIOProjectActivity extends Activity implements OnClickListener{
 
 	public void onClick(View arg0) {
 		// TODO Auto-generated method stub
-		message.setText("Infinity Orange is the best and Kevin was here!");
+		message.setText("Infinity Orange is the best and Kevin was here!\nHere's an update that you asked for.");
 	}
 }
